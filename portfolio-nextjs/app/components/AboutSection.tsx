@@ -38,7 +38,7 @@ export default function AboutSection() {
                 Con un enfoque en el desarrollo web moderno, <strong className="font-bold text-gray-900">combino mi creatividad con sólidos conocimientos técnicos para construir aplicaciones web de alto rendimiento.</strong>
               </p>
               <p>
-                Mi stack principal incluye JavaScript, React para el frontend y Node.js con bases de datos MongoDB/PostgreSQL para el backend. Disfruto trabajando en equipo y estoy en constante búsqueda de nuevas tecnologías para mejorar mis habilidades y aportar valor a los proyectos en los que participo.
+                Mi stack principal se centra en JavaScript, React para el frontend y Node.js con bases de datos relacionales y NoSQL en el backend. Disfruto trabajando en equipo y estoy en constante búsqueda de nuevas tecnologías para mejorar mis habilidades y aportar valor real a cada proyecto.
               </p>
             </div>
           </div>
@@ -65,8 +65,9 @@ function TechIcon({ src, alt }: { src: string; alt: string }) {
       <Image
         src={src}
         alt={alt}
-        width={32}
-        height={32}
+        title={alt}
+        width={50}
+        height={50}
         className="h-auto w-full object-contain"
       />
     </div>

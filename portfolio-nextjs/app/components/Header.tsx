@@ -5,7 +5,7 @@ export default function Header() {
     <header className="absolute top-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 md:px-16">
       {/* Logo / Marca */}
       <div className="flex items-center">
-        <Link href="" className="group flex items-center gap-2">
+        <Link href="https://github.com/nncis" className="group flex items-center gap-2">
           {/* <img src="/logo.svg" alt="NC Logo" className="h-10 w-auto" /> */}
           
           {/* Opción 2: Texto simulado con una fuente cursiva parecida a la de la imagen */}

@@ -7,9 +7,10 @@ function TechIcon({ src, alt }: { src: string; alt: string }) {
       <Image
         src={src}
         alt={alt}
-        width={48}
-        height={48}
-        className="h-auto w-full object-contain"
+        title={alt}
+        width={50}
+        height={50}
+        className="h-auto w-full object-contain "
       />
     </div>
   );
@@ -51,7 +52,7 @@ export default function ProjectsSection() {
 
               {/* Botón Turquesa */}
               <a
-                href="https://vercel.com"
+                href="https://expense-manager-app-topaz.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex w-full items-center justify-center rounded-lg bg-[#a0f0ea] px-4 py-3 text-center text-base font-semibold text-slate-900 transition-colors hover:bg-[#7cd8d2] shadow-sm md:w-52 md:py-3.5 md:text-lg"
@@ -61,7 +62,7 @@ export default function ProjectsSection() {
 
               {/* Botón Blanco */}
               <a
-                href="https://github.com"
+                href="https://github.com/nncis/expense-manager-app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex w-full items-center justify-center rounded-lg bg-white px-4 py-3 text-center text-base font-semibold text-slate-900 transition-colors hover:bg-gray-100 shadow-sm md:w-52 md:py-3.5 md:text-lg"

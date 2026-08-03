@@ -20,7 +20,7 @@ export default function ContactFooter() {
         {/* Botón de Email */}
         <div className="flex justify-center">
           <a 
-            href="mailto:tu-email@ejemplo.com"
+            href="mailto:nahuelcisneros18@gmail.com"
             className="inline-block w-full rounded-lg bg-[#a0f0ea] px-6 py-3.5 text-base font-semibold text-slate-900 transition-colors hover:bg-[#7cd8d2] shadow-lg sm:w-64 md:w-auto md:px-10 md:py-4 md:text-lg"
           >
             Enviar Email
@@ -30,7 +30,7 @@ export default function ContactFooter() {
         {/* Ícono de LinkedIn */}
         <div className="flex justify-center">
           <a 
-            href="https://www.linkedin.com/in/tu-perfil/"
+            href="https://www.linkedin.com/in/nncis/"
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex h-20 w-20 items-center justify-center rounded-full bg-white transition-transform hover:scale-110 shadow-md"
