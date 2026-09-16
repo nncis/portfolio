@@ -12,7 +12,7 @@ export default function AboutSection() {
           <div className="shrink-0">
             <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white shadow-lg md:h-48 md:w-48">
               <Image
-                src="/profilepic.png"
+                src="/profilepic.jpeg"
                 alt="Avatar de Nahuel Cisneros"
                 fill
                 className="object-cover object-[50%_60%]" // <--- CAMBIO CLAVE: object-top evita que se aplaste la cara
